@@ -1,32 +1,67 @@
 /* styles.css */
 body {
-    background: linear-gradient(to right, #FCEED1, #E6BABE);
+    background: linear-gradient(45deg, #FCEED1, #E6BABE, #A19DCA);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.navbar {
+
+.all-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.card {
+    
+    background: linear-gradient(to right, #B8D4D7, #A19DCA);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 30px 10px 30px 10px;
     overflow: hidden;
+    margin: 50px;
+    
+    
 }
 
-.navbar a {
-    float: left;
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 35px 20px;
+
+.card-content {
+    padding: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-content h2 {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content p {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 5px;
     text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    color: #FCEED1;
+    background-color: #E6BABE;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+    
 }
 
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.navbar-right {
-    float: right;
-}
-
-.content {
-    padding: 20px;
+.button:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transform: scale(1.05);
 }
