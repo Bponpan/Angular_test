@@ -1,7 +1,6 @@
 /* styles.css */
 body {
     background: linear-gradient(45deg, #FCEED1, #E6BABE, #A19DCA);
-    
     display: flex;
     align-items: center;
     justify-content: center;
